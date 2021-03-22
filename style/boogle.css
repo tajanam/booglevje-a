@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navbar {
+    display: flex;
+    margin: 8px -10px 0;
+    justify-content: flex-end;
+    width: auto;
+    align-content: center;
+    padding: 10px;
+    font-color: #909497
+}
+
+.navbar a {
+    color:  #252525;
+    text-decoration: none;
+    margin: 2px 24px 0 -8px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.apps-pict {
+   display: flex;
+
+}
+
+.button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px 22px;
+
+}
+
+.login {
+    background-color: #2076ee;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 9px 25px;
+    border-radius: 4px;
+
+}
+
+.login:hover {
+    background-color: #4a7eff;
+
+}
+
+.apps-pict:hover {
+    background: #f2f3f4;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: -10px -10px;
+
+}
+
+.search-apps:hover .hidden {
+    visibility: visible;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 200px auto 0px;
+    padding: 0 30px;
+    font-color: #909497;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 270px;
+}
+
+.search {
+    height: 110px;
+    display: flex;
+    align-content: center;
+    position: relative;
+    margin-top: 26px;
+    margin-bottom: -34px;
+}
+
+.search-bar {
+    width: 600px;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 8px #c9c7c7;
+}
+
+.search-magnifier {
+    display: flex;
+    max-width: 30px;
+    max-height: 30px;
+    height: auto;
+    padding: 13px 15px;
+
+}
+
+.search-bar img {
+    max-width: 100%;
+    height: 18px;
+}
+
+.search-field {
+    width: 550px;
+    height: auto;
+    display: flex;
+}
+
+.search-field input {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.search-field input:focus {
+    outline: none;
+}
+
+.search-mic {
+    max-width: 13px;
+    max-height: 15px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    padding: 5px 17px 5px 5px;
+    position: relative;
+}
+
+
+.hidden {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: auto;
+    left: auto;
+}
+
+.search-mic:hover .hidden {
+    visibility: visible;
+
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.btn {
+    padding: 9px 16px;
+    font-size: 14px;
+    background-color: #f8f9f9;
+    border: none;
+    color: #4f4f4f;
+
+}
+
+
+.btn:hover {
+    border: solid 0.1px #d3d2d2;
+    box-shadow: 1 1 1px #d3d2d2;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 50px 14px 10px;
+
+}
+
+.footer a {
+    font-size: 15px;
+    border: none;
+    color: #7B7D7D;
+    text-decoration: none;
+    margin: 12px;
+
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-left {
+    margin: 0 0 0 10px;
+}
+
+.footer-right {
+    margin: 0 30px 0 0;
+}
